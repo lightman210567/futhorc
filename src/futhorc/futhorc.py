@@ -46,7 +46,29 @@ def drawC():
     turtle.forward(50)
     turtle.left(45)
     turtle.forward(75)
+    # move the turtle back, to make the space smaller
+    turtle.up()
+    turtle.setheading(180)
+    turtle.forward(25)
     moveToNext()
 
+def drawD():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.right(135)
+    turtle.forward(140)
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.left(135)
+    turtle.forward(140)
+    # get the turtle clear of the rune
+    turtle.up()
+    turtle.setheading(0)
+    turtle.forward(100)
+    moveToNext()
+
+drawA()
+drawB()
 drawC()
+drawD()
 turtle.done()
