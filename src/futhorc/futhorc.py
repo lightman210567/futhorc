@@ -39,5 +39,14 @@ def drawB():
     turtle.forward(50)
     moveToNext()
 
-drawB()
+def drawC():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.setheading(-90)
+    turtle.forward(50)
+    turtle.left(45)
+    turtle.forward(75)
+    moveToNext()
+
+drawC()
 turtle.done()
