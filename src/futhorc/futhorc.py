@@ -175,6 +175,17 @@ def drawM():
     turtle.setx(endX)
     moveToNext()
 
+def drawN():
+    turtle.setheading(90)
+    turtle.forward(90)
+    turtle.setheading(-90)
+    turtle.forward(50)
+    turtle.right(135)
+    turtle.forward(25)
+    turtle.right(180)
+    turtle.forward(50)
+    moveToNext()
+
 # drawA()
 # drawB()
 # drawC()
@@ -187,5 +198,6 @@ def drawM():
 # drawJ()
 # drawK()
 # drawL()
-drawM()
+# drawM()
+drawN()
 turtle.done()
