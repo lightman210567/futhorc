@@ -153,7 +153,12 @@ def drawK():
     turtle.forward(50)
     moveToNext()
 
-
+def drawL():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.right(135)
+    turtle.forward(50)
+    moveToNext()
 
 # drawA()
 # drawB()
@@ -165,5 +170,6 @@ def drawK():
 # drawH()
 # drawI()
 # drawJ()
-drawK()
+# drawK()
+drawL()
 turtle.done()
