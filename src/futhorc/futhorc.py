@@ -67,8 +67,20 @@ def drawD():
     turtle.forward(100)
     moveToNext()
 
+def drawE():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.right(135)
+    turtle.forward(50)
+    turtle.left(90)
+    turtle.forward(50)
+    turtle.setheading(-90)
+    turtle.forward(100)
+    moveToNext()
+
 drawA()
 drawB()
 drawC()
 drawD()
+drawE()
 turtle.done()
