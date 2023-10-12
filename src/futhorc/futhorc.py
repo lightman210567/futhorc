@@ -127,6 +127,17 @@ def drawI():
     turtle.forward(100)
     moveToNext()
 
+def drawJ():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.setheading(-90)
+    turtle.forward(25)
+    turtle.left(45)
+    for i in range(4):
+        turtle.forward(25)
+        turtle.right(90)
+    moveToNext()
+
 # drawA()
 # drawB()
 # drawC()
@@ -135,5 +146,6 @@ def drawI():
 # drawF()
 # drawG()
 # drawH()
-drawI()
+# drawI()
+drawJ()
 turtle.done()
