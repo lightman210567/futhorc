@@ -138,6 +138,23 @@ def drawJ():
         turtle.right(90)
     moveToNext()
 
+def drawK():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.sety(40)
+    linePos = turtle.position()
+    turtle.left(135)
+    turtle.forward(50)
+    turtle.up()
+    turtle.setpos(linePos)
+    turtle.setheading(90)
+    turtle.down()
+    turtle.right(135)
+    turtle.forward(50)
+    moveToNext()
+
+
+
 # drawA()
 # drawB()
 # drawC()
@@ -147,5 +164,6 @@ def drawJ():
 # drawG()
 # drawH()
 # drawI()
-drawJ()
+# drawJ()
+drawK()
 turtle.done()
