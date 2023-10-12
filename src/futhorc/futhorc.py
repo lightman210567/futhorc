@@ -92,10 +92,24 @@ def drawF():
     turtle.forward(50)
     moveToNext()
 
+def drawG():
+    turtle.setheading(45)
+    turtle.forward(100)
+    turtle.setheading(135)
+    turtle.up()
+    turtle.sety(0)
+    endPosition = turtle.position() # set the right corner as end position
+    turtle.down()
+    turtle.forward(100)
+    turtle.up
+    turtle.setpos(endPosition) # jump to the end position
+    moveToNext()
+
 # drawA()
 # drawB()
 # drawC()
 # drawD()
 # drawE()
-drawF()
+# drawF()
+drawG()
 turtle.done()
