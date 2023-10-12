@@ -6,10 +6,11 @@ def moveToNext():
     turtle.up()
     turtle.sety(0)
     turtle.setheading(0)
-    turtle.forward(100)
+    turtle.forward(75)
+    turtle.down()
 
 def drawA():
-    turtle.left(90)
+    turtle.setheading(90)
     turtle.forward(100)
     turtle.right(135)
     turtle.forward(50)
@@ -25,5 +26,18 @@ def drawA():
     turtle.forward(50)
     moveToNext()
 
-drawA()
+def drawB():
+    turtle.setheading(90)
+    turtle.forward(100)
+    turtle.right(105)
+    turtle.forward(50)
+    turtle.right(125)
+    turtle.forward(60)
+    turtle.left(105)
+    turtle.forward(50)
+    turtle.right(125)
+    turtle.forward(50)
+    moveToNext()
+
+drawB()
 turtle.done()
