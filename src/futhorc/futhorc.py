@@ -2,7 +2,6 @@ import turtle
 
 def moveToNext():
     # move to the next space
-    turtle.setheading(-90)
     turtle.up()
     turtle.sety(0)
     turtle.setheading(0)
@@ -123,6 +122,11 @@ def drawH():
     turtle.forward(100)
     moveToNext()
 
+def drawI():
+    turtle.setheading(90)
+    turtle.forward(100)
+    moveToNext()
+
 # drawA()
 # drawB()
 # drawC()
@@ -130,5 +134,6 @@ def drawH():
 # drawE()
 # drawF()
 # drawG()
-drawH()
+# drawH()
+drawI()
 turtle.done()
